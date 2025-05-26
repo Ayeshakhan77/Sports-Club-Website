@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webform.css">
+    <title>Admission form</title>
+</head>
+<body class="container">
+    <header>
+        <h1>Admission Form</h1>
+    </header>
+    <p class="wrapper">The area with * are must have to filled.</p>
+    <form action="/action.php">
+     <h3>Personal Information</h3>
+     <h4>Name*</h4> 
+     <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+     
+     <h4>E-Mail*</h4> 
+     <input type="e-mail" name="e-mail" placeholder="E-Mail address" required>
+     <h4>Contact*</h4>
+     <input type="numbers" name="number" placeholder="Phone no." required>
+     <h3>Choose your SPORT</h3>
+     <label for="107">
+      <p>  <input type="radio" value="CRICKET" name="sport" id="107">CRICKET</p>
+      <p>  <input type="radio" value="FOOTBALL" name="sport" id="108">FOOTBALL</p>
+      <p>  <input type="radio" value="TENNIS" name="sport" id="108">TENNIS</p>
+     </label>
+     <h3>Select your subjects</h3>
+     <p>  <input type="checkbox" value="chemistry" name="subject" id="101"> Chemistry</p>
+     <p>  <input type="checkbox" value="physics" name="subject" id="101">Physics</p>
+     <p>  <input type="checkbox" value="biology" name="subject" id="101"> Biology</p>
+     <p>  <input type="checkbox" value="computer" name="subject" id="101"> Computer</p>
+    <p>  <input type="checkbox" value="mathematics" name="subject" id="101">Mathematics</p>
+    <h3>Qualifications</h3>
+      <textarea name="Qualifications" id="Qualifications" cols="20" rows="1" placeholder="write about your qualifications here"></textarea>
+    <h3>Select your District</h3>
+     <select name="city" id="108">
+        <option value="sindh">Sindh</option>
+        <option value="balochistan">Balochistan</option>
+        <option value="punjab">Punjab</option>
+        <option value="kpk">KPK</option>
+        <option value="kashmir">Kashmir</option>
+     </select>
+
+     <label for="customRange2" class="form-label">Qualifications Range</label>
+<input type="range" class="form-range" min="0" max="30" id="customRange2">
+     <br>
+     <br>
+     <p>*<input type="checkbox" value="agree" name="agree"  required> I agree the <a href="./tos.html" target="main">terms of services</a></p>
+     <br>
+     <input type="submit" value="Submit">
+
+    </form>
+    <script>
+       alert(firstName + " sucessfully bought " + courseName + " using " + modeOfPayment);
+    </script>
+    
+
+</body>
+</html>

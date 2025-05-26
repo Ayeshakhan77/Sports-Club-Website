@@ -1,0 +1,55 @@
+
+body{
+    font-family: cursive;
+    margin: 15px 30px;
+    font-size: medium;
+    padding: 8px;
+}
+.container{
+    background-color: lightgrey;
+    padding: 5px 20px 15px 20px;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    background-color: green;
+}
+input[type=text]
+input[type=email]
+label,
+select,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+fieldset{
+    color: black;
+    border: 3px solid black ;
+
+}
+input[type=submit]{
+    background-color: grey;
+    color: black;
+    padding: 10px 15px;
+    border: 3px solid black;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+input[type=submit]:hover{
+    background-color: green;
+}
+h3{
+    background-color: grey;
+} 
+.wrapper{
+    font-size: larger;
+    text-decoration: underline;
+    text-align: center;
+}
