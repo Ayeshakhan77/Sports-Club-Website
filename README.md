@@ -21,4 +21,4 @@ No JavaScript or frameworks — just clean, readable code!
 ## 📂 How to Use
 
 1. Clone the repo:
-   git clone https://github.com/your-username/sports-club-website.git
+   git clone https://github.com/Ayeshakhan77/Sports-Club-Website
